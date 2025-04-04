@@ -1,0 +1,41 @@
+body{
+    background-image: url('./img/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    nav{
+
+    }
+}
+header nav ul{
+    gap: 20px;
+    list-style: none;
+}
+header nav ul li{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
